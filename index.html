@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sardegna - Dal Mare alle Montagne</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,Arial,sans-serif;color:#222;background:#fffdf7}
+header{background:#0b6b5c;color:#fff;padding:18px 16px;text-align:center}
+header h1{margin:0;font-size:28px} header p{margin:6px 0 0;opacity:.9}
+nav{background:#08493e;display:flex;flex-wrap:wrap;justify-content:center;gap:4px;padding:8px}
+nav a{color:#fff;text-decoration:none;font-weight:700;padding:8px 12px;border-radius:20px}
+nav a:hover,nav a:focus{background:#f59e0b;color:#000;outline:none}
+main{max-width:900px;margin:0 auto;padding:20px 16px}
+.hero{background:#fff3d6;border:1px solid #f5d67a;border-radius:16px;padding:20px;text-align:center}
+.hero h2{margin:0 0 8px;color:#0b6b5c}
+.btn{display:inline-block;background:#f59e0b;color:#000;font-weight:800;text-decoration:none;padding:12px 20px;border-radius:30px;margin-top:10px}
+section{margin-top:28px} h2{color:#0b6b5c}
+.card{background:#fff;border:1px solid #eee;border-radius:14px;padding:16px;margin:12px 0;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.grid img{width:100%;height:180px;object-fit:cover;border-radius:12px;background:#eee}
+footer{background:#08493e;color:#fff;text-align:center;padding:16px;margin-top:30px}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><h1>🌊 Sardegna</h1><p>Dal mare alle montagne - Shardana Iglesiente Design</p></header>
+<nav>
+<a href="#home">Home</a>
+<a href="#foto">📷 LE MIE FOTO</a>
+<a href="#mare">Mare e Spiagge</a>
+<a href="#montagne">Montagne</a>
+<a href="#borghi">Borghi</a>
+<a href="#cucina">Cucina</a>
+</nav>
+<main>
+<section id="home" class="hero">
+<h2>Benvenuto in Sardegna</h2>
+<p>Un viaggio tra mare cristallino, montagne, borghi antichi e cucina vera. Questo sito si apre da telefono e da computer, per tutti.</p>
+<a class="btn" href="#foto">📷 LE MIE FOTO</a>
+</section>
+
+<section id="foto">
+<h2>📷 LE MIE FOTO</h2>
+<p>Per aggiungere le tue foto: caricale su GitHub con il nome <b>foto-1.jpg</b>, <b>foto-2.jpg</b>, <b>foto-3.jpg</b> e appariranno qui.</p>
+<div class="grid">
+<img src="foto-1.jpg" alt="La mia foto 1 della Sardegna" onerror="this.style.display='none'">
+<img src="foto-2.jpg" alt="La mia foto 2 della Sardegna" onerror="this.style.display='none'">
+<img src="foto-3.jpg" alt="La mia foto 3 della Sardegna" onerror="this.style.display='none'">
+<img src="foto-4.jpg" alt="La mia foto 4 della Sardegna" onerror="this.style.display='none'">
+</div>
+<p>Se non vedi foto, è normale: devi ancora caricarne una.</p>
+</section>
+
+<section id="mare"><h2>🏖️ Mare e Spiagge</h2><div class="card"><p>Acqua trasparente, sabbia bianca e calette nascoste. Dalle spiagge dell'Iglesiente alle calette del sud Sardegna.</p></div></section>
+<section id="montagne"><h2>⛰️ Montagne</h2><div class="card"><p>Sentieri, boschi, funghi e panorami. La Sardegna non è solo mare: dentro c'è un mondo di montagna da scoprire.</p></div></section>
+<section id="borghi"><h2>🏘️ Borghi</h2><div class="card"><p>Paesi di pietra, vicoli, piazze e gente vera. I borghi dell'Iglesiente e del Sulcis raccontano la storia dei minatori e dei pastori.</p></div></section>
+<section id="cucina"><h2>🍝 Cucina</h2><div class="card"><p>Pane, formaggi, pesce, dolci e vino. La cucina sarda è semplice e buona, fatta con quello che dà la terra e il mare.</p></div></section>
+</main>
+<footer><p>Shardana Iglesiente Design - Sardegna</p></footer>
+</body>
+</html>
